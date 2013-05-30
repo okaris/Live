@@ -16,7 +16,7 @@ var express = require('express'),
     mongoose = require('mongoose');
 
 app.configure(function(){
-  app.set('port', process.env.PORT || 3000);
+  app.set('port', process.env.PORT || 4128);
   app.set('post_author', 'Mert Dümenci');
   app.set('views', __dirname + '/views');
   app.set('view engine', 'jade');
