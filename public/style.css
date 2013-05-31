@@ -34,7 +34,7 @@ body {
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-
+    max-width: 600px;
     width: 90%;
 }
 
@@ -93,6 +93,15 @@ body {
     color: #586a6b;
 }
 
+.item-image img {
+    width: 100%;
+  border: 10px solid #fff;
+  border-bottom: 45px solid #fff;
+  -webkit-box-shadow: 3px 3px 9px #999;
+     -moz-box-shadow: 3px 3px 9px #999;
+          box-shadow: 3px 3px 9px #999;
+}
+
 .item-footer {
     color: #c6d5d8;
     padding: 10px 10px 20px 10px;
@@ -129,5 +138,37 @@ body {
 }
 
 /*
+    ------------------------------
+
+    Form Styling
+
+    ------------------------------
+*/
+
+.form-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.form-container label {
+    float: left;
+    vertical-align: top;
+    min-width: 300px;
+}
+
+.form-container input {
+    min-width: 200px;
+}
+
+ fieldset {
+     min-width: 200px;
+     display: inline-block;
+ }
+
+ fieldset input{
+     float: right;
+ }
+
+ /*
     ------------------------------
 */
