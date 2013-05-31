@@ -35,6 +35,7 @@ $(function() {
     
     xhr.onload = function() {
       showInfo(this.responseText);
+      $("#post-form")[0].reset();
     };
     
     xhr.send(formData);

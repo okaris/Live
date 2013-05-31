@@ -143,6 +143,14 @@ var Post = mongoose.model('post', new mongoose.Schema({
   image: {type: String, required: false}
 }));
 
+// Wipeout Database
+
+/*
+Post.remove({}, function(err) { 
+   console.log('collection removed') 
+});
+*/
+
 ///////
 
 server.listen(app.get('port'), function(){
